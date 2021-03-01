@@ -1,0 +1,3 @@
+
+17.class		-> Integer
+17.1254.class		-> Float

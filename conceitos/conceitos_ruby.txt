@@ -1,0 +1,63 @@
+RUBY
+
+-> Lingaguem criada em 1995 por Matz
+-> Interpretada (não é compilada, não gera um executável no final)
+	-> Interpretador lê o código e gera uma saída
+	-> Multi Paradigma
+	-> Foco em simplicidade
+	-> Popularidade em 2001 após o livro "Programming Ruby" - David Thomas, Andrew hunt
+
+	-> Ruby é uma linguagem dinâmica, open source com foco na simplicidade e na produtividade. Tem uma
+		sintaxe elegante de leitura natural e fácil escrita.
+	-> TIPAGEM DINÂMICA (Não precisa dizer o tipo da variável)
+	-> TIPAGEM FORTE (Não realiza conversão automática entre os tipos de dados)
+		-> JavaScript seria um linguagem de tipagem fraca (converte automática entre os tipos de dados)
+	-> ORIENTADA A OBJETOS
+
+RAILS
+	-> Framework Web escrito em Ruby
+	-> Criada em 2004 por David Heinemeier Hansson
+	-> Extraído do Basecamp
+	-> Otimizado para a felicidade da pessoa programando
+	-> Conversão sobre configuração
+	-> Padrão MVC (model view controler)
+			-> MODELO = código que vai se comunicar com o banco de dados
+			-> VISUALIZAÇÕES = Telas exibidas para o usuárioapt 
+ 	
+	NAVEGADOR -> ROUTES
+			ROUTES -> CONTROLLER <-> MODEL <-> DATABASE 
+			ROUTES -> CONTROLLER -> VIEW -> NAVEGADIR DO USUÁRIO
+
+GEMS
+	-> Bibliotecas escritas em Ruby que são compartilhadas entre a comunidade
+	-> gems install nome_da_biblioteca	gems install rails
+	-> https://rubygems.org		nesse site tem todas as bibliotecas do ruby
+
+AMBIENTE RUBY - Ubuntu
+
+IDE = RubyMine (é paga)
+# apt update
+# apt install snapd
+# sudo snap install emacs --classic
+
+# apt-get instal ruby
+
+-> Gerenciadores de versão
+	https://asdf-vm.com
+# sudo apt install curl git
+
+. $HOME/.asdf/asdf.sh - colar a seguinte linha de codigo no arquivo ~/.zshrc
+. $HOME/.asdf/asdf.sh
+
+# asd --version		- Para verificar se instalou e qual versão
+# asdf plugin-add ruby
+# asdf install ruby 2.7.1
+# ruby -v 			- Verifica a versão do ruby
+# asdf list ruby
+# asdf local ruby 2.7.1		- Troca a versão do ruby
+# asdf list nodejs 2.
+
+
+	
+	
+	

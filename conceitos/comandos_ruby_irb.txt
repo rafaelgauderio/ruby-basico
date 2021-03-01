@@ -1,0 +1,46 @@
+
+# puts "Hello World"
+# puts ("Hello World")
+
+# nome = "Rafael de Luca"
+# nome
+# nome = 10
+# nome 
+
+-- Em ruby tudo é objeto, não temos tipos básicos e objetos como no JAVA
+
+# nome.object_id
+# nome.class
+
+-- nil é  palavra chave em ruby para null
+
+# nil.object_id
+# nil.classe
+# NilClass.object_id		- também é uma classe e tem uma posicao na memória
+# NilClass.superclass
+# Object.object_id
+
+-- Object é tipo primario de ruby
+-- Definindo uma função
+
+# def somar(x,y)
+# x + y
+# return x + y			- Normalmente é omitido o return (é sempre a última linha do método)
+# end
+# somar(15,13)
+# soma = somar(5,10)
+
+-- Definindo listas (pode colocar vários tipos diferentes de variáveis na mesma lista)
+
+# nomes ["Rafael", "Ruby", 17 , false, true, nil]
+# nomes
+# nomes.class
+# nomes.lengh()
+# nomes.object_id
+
+-- arquivos .rb são extensões em ruby
+
+-- no termial
+# ruby nome_do_arquivo.rb
+
+

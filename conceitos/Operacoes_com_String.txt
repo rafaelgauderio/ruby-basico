@@ -1,0 +1,11 @@
+
+# "rafael".chars
+# "rafael"[0,3]			-> raf
+# "-" * 10			-> String com 10 vezes o caracter -
+# "mensagem	".strip		-> remover espaçoes em branco
+# "rafael".upcase	
+# "RAFAEL".downcase
+#  "rafael".capitalize		-> Primeira letra maíscula
+
+# "rafael teste outro_nome".split
+# "rafael-teste-outro_nome".split("-")		-> Informando o separador do split

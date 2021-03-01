@@ -1,0 +1,52 @@
+String é uma cadeia de caracteres
+
+texto = "Rafael"		\n	\t	\"	interpolação
+texto = 'Rafael De Luca'	não interpola código com aspas simples
+texto = %q(meu texto)		não faz interpolação
+texto = %Q(meu texto)		faz interpolação
+
+nome = "Rafael"
+mensagem = "Bem-vindo  #{nome}"
+puts mensagem
+
+# Não é apenas uma concatenação de String é uma interpolação de código
+mensagem = " Soma #{1+5}"
+puts mensagem
+
+mensagem "Bem+vindo " + nome
+
+	
+	heredoc
+mensagem = <<~DELIMITADOR
+	mensagem de texto desejada
+DELIMITADOR
+--
+mesagem = <<~DELI
+	Ola #{nome}
+
+	Bem-vindo ao início do programa!
+
+	Texto
+DELI
+
+puts mensagem
+
+--
+
+nome = "De Luca"
+mensagem = %Q(Bem vindo ao teste) #{nome})
+
+puts mensagem
+
+puts mensagem.public_methods
+
+puts mensagem.length
+
+puts "O tamanho da minha String é #{mensagem.length()} "
+
+
+
+
+
+
+	
