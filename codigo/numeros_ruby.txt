@@ -1,0 +1,13 @@
+17
+17.4256
+1500
+123500
+Integer
+Float
+Somando inteiro com ponto flutuante
+14.2
+"Soma de 5 + 2: 7"
+8
+2
+false
+true

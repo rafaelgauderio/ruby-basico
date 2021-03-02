@@ -1,0 +1,27 @@
+"Rafael"
+A
+B
+C
+["A", "B", "C"]"quera linha automaticamente"
+["A", "B", "C"]
+"Primeira letra no nome R"
+"Última letra do nome l"
+6
+["R", "a", "f", "a", "e", "l"]
+"Rafa"
+CABEÇALHO
+--------------------
+Corpo do texto
+Float
+O número é 00017
+mensagem com espaços
+DELUCA
+DELUCA
+deluca
+Deluca
+60
+80
+DELUCA
+Ola Juliana da Silva
+["Angela", "Rafael", "Cristiano", "Linda"]
+Array
