@@ -1,0 +1,21 @@
+-HERANÇA
+	-> objetivo REUSO de funcionalidades em ruby
+	-> Uma classe filho pode herdar apenas de uma classe
+	-> NÃO tem herança múltipla em ruby
+	-> Object é a classe pai de todas as classes
+	-> super # executa o método sobrescrito da super classe
+
+	-> CLASSE PAI
+		class Base
+		end
+	
+	-> CLASSE FILHA
+		class Filha < Base
+		end
+		
+class Animal
+end
+
+class Cachorro < Animal
+end
+

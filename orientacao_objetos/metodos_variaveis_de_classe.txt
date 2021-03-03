@@ -1,0 +1,17 @@
+-> MÉTODOS E VARIÁVEIS DE CLASSE
+	
+	-> .new é um método de classe
+	-> Podemos definir nossos próprios métodos
+	-> Exemplo	Pessoa.gerar
+	-> Serial análogo ao método static no void.
+	-> O método é gerado na em cima da própria classe
+	
+	class Pessoa	
+		def self.gerar
+		puts "Está sendo gerando uma nova pessoa"
+		end
+	end
+	
+	-> @@	usado para definir variáveis de classe
+	-> variáveis de classe não são muito utilziadas com ruby
+	

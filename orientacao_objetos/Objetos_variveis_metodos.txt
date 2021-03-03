@@ -1,0 +1,17 @@
+-> CLASSES
+	-> É como se fosse uma planta, esboço, desenho técnico
+	-> Nomeia utilizando CamelCase do java
+ 	# class NomeDaClasse
+		end
+
+
+-> OBJETOS
+	-> Construção do objeto baseada no desenho da classe
+	-> É uma instância de classe
+	# objeto = NomeDaClasse.new
+	
+
+-> VARIÁVEIS
+	-> Por conversão inicia com minusculo e separada com underline
+
+-> MÉTODOS
