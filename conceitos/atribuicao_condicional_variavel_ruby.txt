@@ -1,0 +1,22 @@
+-> Atribuição condicional de variável
+	
+-- Exemplo de código
+
+	variavel = nil
+	variavel = "Algum valor" if variavel.nil?
+
+--	
+	# nil é avaliado como false, então variavel diferente de nil também atribui um valor
+	variavel = nil
+	variavel = "Algum valor" if !variavel
+
+-- 
+	variavel = nil
+	vairavel = "Algum valor" unless variavel
+
+-- Exemplo de sintaxe atribuição condicional
+	# só vai atribuir o valor se a variável estiver nula ou false
+	variavel = "Rafael"
+	variavel || = "Juliana"
+	puts variavel
+	# vai imprimir Rafael, pois não atribuiu o valor Juliana a variavel, pois ele não era nem nula e nem falsa.

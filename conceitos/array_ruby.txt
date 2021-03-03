@@ -1,0 +1,17 @@
+-> ARRAY
+	-> Listas de valores separados por vírgula
+	-> Em ruby arrays podem ter valores de diferentes tipos
+
+# lista = []
+# lista = Array.new		-> .new instancia um novo objeto daquela classe
+# lista = [1, 15, "rafael", true, false]
+# lista[0]
+# lista << "novo item"		-> similar ao linux para fazer append
+# lista.append("novo item")
+# lista.length
+# lista.empty?
+# lista.first
+# lista.last
+# lista.class			-> É um objeto do tipo Array
+# result  = lista_1 + lista_2	-> Vai somar as duas listas
+

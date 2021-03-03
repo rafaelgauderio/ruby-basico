@@ -1,0 +1,29 @@
+-> HASH
+	-> Estruturas de chave-valor
+	-> Podem ser chamadas de hashmap ou dicionário
+	-> A chave de hash vai ser um objeto
+	-> É mais rápido pesquisar por um hash na memória de uma lista do que 
+		fazer um busca percorrendo a lista inteiro em um database grande
+
+# hash = {}
+# hash = Hash.new	-> Instancia um novo objeto da classe do tipo Hash
+# hash = {
+	chave => valor,
+	chave => valor,
+ }
+
+# h = { "nome" => "Rafael", "idade" => 35 }
+# h = { :nome  => "Rafael", :idade => 35 }
+# h = { nome: "Rafael" , idade:35 }		-> sintaxe mais curta elegante
+# h[:nome]					-> acessando o valor do hash
+# h[:idade]
+# h[:nome] = "Novo nome"			-> Alterando o valor da variável
+
+# hash.keys					-> retorna um array com as chaves
+# hash.values					-> retorna um array com os valores
+# hash.empty?					-> Verifica se está vazio
+# h.class					-> Hash
+# h
+
+
+

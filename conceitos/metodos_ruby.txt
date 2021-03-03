@@ -1,0 +1,54 @@
+-> MÉTODOS
+
+
+	-> return é opcional. 
+	-> Ruby sempre retorna o resultado da execução da última linha
+
+--
+	def meu_metodo
+		puts "meu_metodo foi executado dentro desse bloco"
+	end
+
+--	
+	def meu_metodo(parametro1, parametro2)
+		puts "meu_metodo foi executado dentro desse bloco # {paramentro1} e #{paramentro2}"
+	end
+
+
+-- 
+	def soma (a,b)
+		a + b
+	end
+
+--
+	def multiplica (x,y)
+		puts "Estou multiplicando #{x} e #{y}"
+
+		return x * y
+	end
+
+	puts multiplica(5,7)
+	
+		
+-- argumento opcional
+
+	def multiplica (x, y=20)
+		puts "Estou multiplicando #{x} e #{y}"
+
+		return x * y
+	end
+	
+	# senão informar o parametro y, vai considerar o valor padrão setado como 20
+	puts multiplica(5)
+
+
+-- argumentos nomeados
+
+	def soma_nomeados (valor1:,valor2:)
+		puts "Estou multiplicando #{valor1} e #{valor}"
+
+		valor1 + valor2
+	end
+	# nomeando as variáveis, não importa a ordem que foi informar os parâmetros
+	puts soma_nomeados(valor2: 10, valor1:5)
+		

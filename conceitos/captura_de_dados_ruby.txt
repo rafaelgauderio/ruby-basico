@@ -1,0 +1,26 @@
+-> ENTRADA DE DADOS
+	
+	gets()
+	 gets
+# nome = gets
+
+
+-- no terminar irb
+	
+nome = gets
+-- execucao no programa é interrompiada aguardando a entrada de dados
+-- \n é o caracter do enter (nova linha)
+
+# nome.chomp()		-> retira o última caracter especial da String (remove o \n)
+# nome = gets.chomp	-> não fica o \n na variável
+
+
+-- no emacs
+
+puts "Informe seu nome"
+nome = gets
+puts "O nome inormado foi #{nome}"
+
+
+
+

@@ -1,0 +1,24 @@
+-> SIMBOLOS
+
+	-> Tipo especial de objeto
+	-> São criados com : no início do identificador
+	-> IMUTÁVEIS
+	-> Ótimos substitutos para String quando for usado como label ou chaves de hash
+	-> Ajudar a economizar memória
+
+	
+-- Exemplos de código do IRB
+
+variavel = "rafael"
+variavel.object_id 
+# Todo vez que utiliza String utiliza um novo objeto na memória
+:"rafael"
+:rafael
+:rafael.object_id		-> vai ser sempre o mesmo valor referenciado na memória
+1.send("+",2)	
+# garbage colector do ruby vai limpando os campos de memória que não estão sendo utilizados
+1.sendo(:+,2)			-> Não vai alocarmemória toda hora, vai utilizar esse símbolo.
+
+dicionario["rafael"] = "1"
+dicionario[:rafael]= "1"	-> Muito mais perfomático utilizando símbolos, não vai recriar esse texto toda vez.
+

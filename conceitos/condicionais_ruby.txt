@@ -1,0 +1,101 @@
+-> CONDICIONAIS
+	-> Executam um trecho de código dependendo de uma condição
+	-> if, elsif , else
+	-> Apenas nil e false são avaliados com falso
+	-> unless (senao for verdade)
+	-> ternário
+		condicao ? verdadeiro : falso
+	-> case, when, else, end
+
+
+	if condicao
+		faca_operacao
+	else
+		faca_outra_coisa
+	end
+
+-> OPERADORES RELACIONAIS RUBY
+	== , != , >, >=, <, <=
+
+-- NO irb
+	valor =20
+	if valor > 50
+		puts "Valor maior que 50"
+	else 
+		puts "Valor menor que 50"
+	end
+
+-> OPERADORES CONDICIONAIS
+	!	NEGAÇÃO
+	&&	AND
+	|| 	OR
+
+-- novo trecho	
+	VALOR = 20
+	if valor > 30
+		puts "Eu sou maior que 30"
+	elsif valor = 30
+		puts = "Eu sou igual a 30"
+	else	puts = "Eu sou menor que 30"
+	end
+
+-- novo trecho
+	valor = 20
+	puts "Eu sou mairo que 60 if valor > 60
+
+-- novo trecho
+	unless condicao
+		faca_metodo
+	end
+
+-- OPERADOR TERNÁRIO
+
+	valor >30 ? puts " eu sou maior que 30" : puts "Eu sou menor que 30"
+
+-- case
+	linguagem = "java"
+	case linguagem
+	when "java"
+		puts "Bem-vindo ao curso de java"
+	when "ruby"
+		puts "Bem-vindo ao curso de ruby"
+	else
+		"Não temos esse curso de progração"
+	end
+
+-- Conveter String em inteiro
+	valor = gets.chomp.to_i
+	p valor.class
+	p valor	
+
+	if valor > 20
+		puts "Esse valor é maior que 20"
+	elsif
+		puts "Esse valor é igual a 20"
+	else
+		puts "Esse valor é menor que 20"
+	end
+	
+-- Verificação de vazia
+	valor = ""
+	if !=valor.empty?
+		puts "Não está vazia"
+	else
+		puts "Não tem nenhum conteudo na variável"
+	end
+
+--unless
+	
+	puts "Informe um valor"
+	numero = gets.chomp.to_i
+	
+	unless numero == 10
+		puts "O valor não é 10"
+	end
+	
+
+
+
+
+
+

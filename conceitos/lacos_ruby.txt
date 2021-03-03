@@ -1,0 +1,66 @@
+-> LAÇOS
+	-> Maneira de executar o mesmo código de maneira repetidas dentro de uma condição
+	-> for so funciona se o objeto responder ao método .each
+
+# break 		-> sair do laço
+# return		-> sair do laço e do método onde o laço está contido
+# next			-> vai imediatamente para a próxima iteração
+# redo			-> repete o laço do início (a condição não será reavaliada)
+	
+-- Exemplo de código
+
+	valor = 30
+	while valor >0
+		puts valor + " "
+		valor = valor - 1
+	end
+
+	valor = 30
+	while valor >0
+		puts valor + " "
+		valor -= 1
+	end
+
+-- Exemplo de for
+	for indice in [ 1,2,3,4,5]
+		puts "O número é #{indice}"
+	end
+
+--Exemplo de until - Fazer enquanto for falso, faz até a condição se tornar verdadeira
+	numero = 0
+	until numero = 15
+		puts numero
+		numero +=1
+	end
+
+--Exemplo de break
+	numero =0
+	while (valor <15)
+		puts "O valor é #{numero}"
+		break if numero ==5
+		numero += 1
+	end
+
+--Exemplo com range
+	range = 0..35
+	for valor in range
+		puts "O número é #{valor}"
+	end
+
+--Exemplo com each
+	lista = [1, 3, 4 ,5, 7, 9]
+	
+	lista.each do |numero|
+		puts "Meu número é (usando each) #{valor}"
+	end
+
+--Exemplo com hash
+	
+	hash = {nome: "Rafael" , idade; 35}
+	hash.each do |chave, valor|
+		puts "Minha chave é #{chave} com o valor de #{valor}"
+	end
+	
+
+
+
