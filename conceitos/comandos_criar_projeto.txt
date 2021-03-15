@@ -1,0 +1,102 @@
+# rails new nome_projeto --git --database=postgresql -T
+
+# cd nome_projeto
+# rails server		-> subir o localhost porta 3000. http://localhost:3000
+
+	apos alterar o arquivo gemfile
+		gem 'bootsnap'
+		gem 'devise'
+		gem 'rspec-rails'
+		gem 'factory_bot_rails'
+		gem 'faker'
+
+# bundle install
+# rspec .
+# rails generate rspec:install
+
+TESTES
+	-> Rspec
+	-> Minitest
+
+	-> factory_bot = biblioteca para gerar massa de dados em ruby
+
+TDD
+	-> TDD = Test Driven Development = Desenvolvimento orientado a testes
+	-> Uma metodologia de desenvolvimento orientado a testes.
+	-> Desenvolver o código orientado a testes
+	-> código limpo e bem escrito
+	-> Segurança por sempre ter testes
+	
+	-> Dificuldade em começar a escrever o teste antes da funcionalidade
+	-> Manter uma rotina
+	-> 3 Etapas: Escrever o teste -> ve ele falhando -> rescreve o teste para ver passar
+				-> Refatora ele para ficar mais bem apresentado
+	-> martinfowler.com
+
+RENDERING
+
+	-> Rails partial: Uma maneira de quebrar a renderização de páginas em pedaços menores 
+				de responsabilidade única.
+	-> render
+		-> diz qual view mostrar ao usuário
+	-> redirect_to
+		-> outra requisição ao HTTP
+
+# rails generate migration add_role_to_users
+# rails db:migrate
+
+
+JOBS / WORKERS
+	-> Processos assíncronos
+		-> ActiveJob: framework de abstração para implementar classes de trabalho assíncrono
+			-> Sidekik
+				-> redis
+		-> Shoryuken
+			-> Amazon SQS		
+
+# rails generate model order
+# rails generate controller orders create 
+# rails generate job restaurant_notifier
+	-> Linhas de comando para criar os arquivos .rb, .html, .db e depois editar esses arquivos
+		e testar as funcionalidades da aplicação
+
+# sudo apt-get install redis
+# redis-server
+	-> url: 'redis://localhost:6379/0'
+# bundle exec sidekik
+
+DOCKER / DEPLOY
+	-> Docker e containers
+		-> Uma ferramenta de virtualização em nível de Sistema Operacional.
+		-> Faz uma virtualização usando somente o Kernel do Linux
+		-> Apenas 1 Host Operating System
+		-> Docker = docker CLI client + docker daemon server
+		-> REST API fica entre o cliente e server
+	
+	-> Deploy e Heroku
+		-> Continuos Integration
+		-> Continuos Delivery
+		-> Heroku
+			-> Plataforma em nuvem que faz deply de várias aplicações back-end seja hospedagem, teste, escalar aplicações
+			-> Uma ferramenta de PaaS para _deploy_ de aplicações.
+
+		-> AWS
+			IaaS - infraestructure as a service
+		-> Terraform 
+			-> Terraform é uma infraestrutura de código aberto como ferramenta de software de código
+				criada pela HashiCorp. Utiliza JSON
+# docker ps
+# docker imagens
+# touch arquivoDocker		-> Configuração da imagem gerado pelo Docker: vários comandos aqui dentro
+	-> editar o arquivo
+# docker build -t ruby_ieat .
+		-> começa a criar o imagem ruby-ieat  na pasta atual
+		-> Todo o código fica dentro de uma imagem docker
+# docker images | grep ruby_ieat
+# docker-compose up	-> Uma ferramente para definir e executar aplicações de vários containers Docker.
+
+
+	
+
+	
+			
